@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 246, 246);
+}
+.cointaner{
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+     height: 100px;
+    width: 100%; 
+    margin-top: 150px; 
+} 
+
+li{
+    height: 70px;
+    width: 70px;
+    border: 3px solid rgb(202, 159, 159);
+    background-color: aqua;
+    list-style-type: none;
+    color:black;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color: brown;
+} 
+
+#contain {
+    display: flex;
+    justify-content: center; 
+    margin-top: 80px;
+}
+
+#btn {
+    border-width: 2px;
+    border: 3px solid rgb(7, 1, 1);
+    width: 150px;
+    height: 50px;
+    background-color: bisque;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+#btn:hover {
+    background-color: rgb(74, 76, 76);
+    width: 160px;
+    height: 60px;
+    color: white;
+}
+
+li.winning {
+    background-color: yellow !important;
+    color: black !important;
+}
+
+#winnerDisplay {
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+
+ 
